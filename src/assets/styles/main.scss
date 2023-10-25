@@ -1,0 +1,58 @@
+@import '../../typography.scss';
+// body {
+//     margin: 0;
+//     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+//         'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+//         sans-serif;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     background-color: #F7F9FB
+// }
+
+
+
+@import "./generalClasses.scss";
+
+@import './views/Login';
+
+@import './views/Dashboard/dashboard.scss';
+@import './views/Sidebar/sidebar.scss';
+@import './views/Sidebar/sidebar-bottom.scss';
+@import './views/Header/header.scss';
+@import './views/Dashboard/Plans.scss';
+@import './views/Dashboard/NewClient.scss';
+@import './views/LandingPage/header.scss';
+@import './views/LandingPage/content.scss';
+@import './views/LandingPage/fixed-sidebar.scss';
+@import './views/TeacherDashboard/Header.scss';
+@import './views/TeacherDashboard/Sidebar.scss';
+@import './views/courses/course.scss';
+@import './views/CourseBuilder/courseBuildr.scss';
+@import './views//TeacherDashboard//Dashboard.scss';
+@import './views//TeacherDashboard/NotificationPanel.scss';
+@import './views/TeacherDashboard/courseCard.scss';
+@import './views/TeacherDashboard/content.scss';
+@import './views//PricingPlans/pricingHeader.scss';
+@import './views/PricingPlans/pricingPlans.scss';
+@import './views/PricingPlans/Plans.scss';
+@import './views/QuizBuilder/quizes.scss';
+@import './views/TeacherDashboard/Create-course/create-course.scss';
+@import './views/TeacherDashboard/Create-course/breadcrumb.scss';
+@import './views//TeacherDashboard//Create-course/Courses-count.scss';
+@import './views/TeacherDashboard/Create-course/Course-tabs.scss';
+@import './views//TeacherDashboard/Create-course/Course-details.scss';
+@import './views/TeacherDashboard/Create-course/CourseSectionContainer.scss';
+@import './views/TeacherDashboard/Create-course/ChapterDetail.scss';
+@import './views//TeacherDashboard/Create-course/UploadedContent/Video.scss';
+@import './views/TeacherDashboard/Create-course/chaptercontent.scss';
+@import './views/TeacherDashboard/Create-course/Upload.scss';
+@import './views/TeacherDashboard/Create-course/addChapter.scss';
+@import './views/Register.scss';
+
+
+
+// components
+@import './components/shared/button.scss';
+@import './components/inputs/input.scss';
+@import './components//shared/shared.scss';
+@import './components/shared/footer.scss';

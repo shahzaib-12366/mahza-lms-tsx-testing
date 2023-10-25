@@ -1,0 +1,48 @@
+.course-card-container {
+    margin: 0px 20px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+
+    .view-all-button {
+        color: #10BAAC;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+
+    }
+
+    .cards {
+        display: flex;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .card {
+        max-width: 300px;
+        margin: 20px;
+        overflow: hidden;
+    }
+
+    .card-image {
+        width: 200px;
+        height: 150px;
+        border-radius: 8px;
+    }
+
+    .card-content {
+        padding: 10px 5px;
+    }
+
+    .card-stats {
+        font-family: Work Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+    }
+
+
+}

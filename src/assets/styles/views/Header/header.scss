@@ -1,0 +1,76 @@
+/* header.scss */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    color: #fff;
+    padding: 10px 20px;
+    height: 80px;
+    border-bottom: 1px solid gray;
+    
+
+    .header-logo img {
+        max-width: 80px;
+        height: auto;
+        margin-left: 70px;
+    }
+
+    .header-right-side{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .header-search {
+        display: flex;
+        align-items: center;
+        margin-right: 8rem;
+        input[type="text"] {
+            padding: 12px 30px 12px 30px; /* Add padding to the right to make space for the icon */
+            border: 1px solid lightgray;
+            border-radius: 12px;
+            font-size: 14px;
+            background: white url('') no-repeat scroll right center; /* Add the search icon as a background */
+            background-size: 20px; /* Adjust the size of the search icon */
+            text-align: center;
+            color: lightgray;
+        }
+    }
+
+    .header-icons {
+        display: flex;
+        align-items: center;
+
+        .notification-icon {
+            font-size: 20px;
+            margin-right: 20px;
+        }
+
+        .user-profile {
+            display: flex;
+            align-items: center;
+
+            img {
+                width: 60px;
+                height: 60px;
+                border-radius: 50%;
+                margin-right: 20px;
+                border: 1px solid black;
+            }
+
+            .add-icon {
+                font-size: 17px;
+                cursor: pointer;
+                color: white;
+                font-weight: bold;
+                background-color: #f8b406;
+                padding: 2px 7px 4px 7px;
+                border-radius: 45%;
+                margin: 0px 0px 60px 54px;
+                position: absolute;
+            }
+        }
+    }
+}

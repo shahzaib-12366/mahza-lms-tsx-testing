@@ -1,0 +1,45 @@
+.ant-tabs {
+    .ant-tabs-nav {
+        margin-top: 50px;
+        height: 40px;
+        border: 0px 0px 1px 0px;
+
+        .ant-tabs-tab {
+            padding: 0 15px;
+
+            &:hover {
+                color: #10baac; // Tab text color on hover
+            }
+
+            &.ant-tabs-tab-active {
+                color: #10baac; // Selected tab text color
+                background-color: white; // Background color for integer values
+
+                .ant-tabs-tab-btn {
+                    background-color: transparent; // Remove default background
+                }
+            }
+
+            .ant-tabs-tab-btn {
+                background-color: transparent; // Background color for integer values
+            }
+        }
+    }
+
+    .ant-tabs-content {
+        padding: 16px; // Add padding to tab content
+    }
+}
+
+// .ant-tabs{
+
+//     .tablist{
+//         .ant-tabs-nav-wrap{
+//             .ant-tabs-nav-list{
+//                 height: 30px;
+//             }
+//         }
+
+//     }
+
+// }

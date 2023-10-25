@@ -1,0 +1,271 @@
+.wrapper {
+    width: 769px;
+    height: 672px;
+    top: 96px;
+    left: 335px;
+    gap: 75px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 100px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    form {
+
+        .row {
+            width: auto;
+            height: 89px;
+            padding: 10px;
+            gap: 16px;
+            display: flex;
+            justify-content: space-between;
+
+            .form-group {
+                flex: 1;
+                height: 69px;
+                gap: 8px;
+
+                label {
+
+                    font-family: Work Sans;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 18px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #504F54;
+                    height: 19px;
+                    display: block;
+                    margin-bottom: 5px;
+                }
+
+                input[type="text"],
+                input[type="email"],
+                input[type="password"],
+                input[type="checkbox"] {
+                    width: 350px;
+                    height: 42px;
+                    padding: 11px 12px 11px 12px;
+                    border: 1px solid #EBEAED;
+                    gap: 10px;
+                    background: linear-gradient(0deg, #FBFAFC, #FBFAFC),
+                        linear-gradient(0deg, #EBEAED, #EBEAED);
+                    outline: none;
+
+                }
+
+            }
+        }
+
+        .email-form-group {
+            flex: 1;
+            height: 89px;
+            gap: 8px;
+            padding: 10px;
+
+            label {
+
+                font-family: Work Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #504F54;
+                height: 19px;
+                display: block;
+                margin-bottom: 5px;
+            }
+
+            input[type="email"] {
+                width: 740px;
+                height: 42px;
+                padding: 11px 12px 11px 12px;
+                border: 1px solid #EBEAED;
+                gap: 10px;
+                background: linear-gradient(0deg, #FBFAFC, #FBFAFC),
+                    linear-gradient(0deg, #EBEAED, #EBEAED);
+                outline: none;
+
+            }
+
+        }
+
+        .robot-form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 320px;
+            height: 103px;
+            top: 359px;
+            left: 70px;
+            margin: 15px 0px;
+            margin-left: 10px;
+            gap: 22px;
+            background-color: #FBFAFC;
+            border-radius: 10px 10px 0px 0px;
+
+
+            .shaded-area {
+                width: 320px;
+                height: 37px;
+                border-radius: 10px 10px 0px 0px;
+                background: #A5D2CE7D;
+            }
+
+            .checkbox-container {
+                display: flex;
+                align-items: center;
+                justify-content: flex-start;
+                width: 300px;
+                height: 56.44px;
+                top: 26.56px;
+                background: #FBFAFC;
+                margin-left: 10px;
+
+                input {
+                    width: 22.5px;
+                    height: 22.5px;
+                }
+
+                label {
+                    width: 115px;
+                    height: 20px;
+                    font-family: Work Sans;
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    letter-spacing: 0px;
+                    text-align: left;
+                    color: #000000;
+                }
+
+
+            }
+
+        }
+
+        .terms-checkbox-container {
+            display: flex;
+            align-items: center;
+            height: 22.5px;
+            top: 476px;
+            left: 80.5px;
+            gap: 10px;
+            margin: 30px 0px;
+
+            label {
+                font-family: Work Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 20px;
+                letter-spacing: 0px;
+                text-align: left;
+                color:
+                    #C0B6B6;
+
+                a {
+                    color: #10baac;
+                    text-decoration: underline;
+                }
+
+            }
+
+            input {
+                width: 22.5px;
+                height: 22.5px;
+            }
+
+        }
+
+        .button-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            height: 42px;
+            top: 535px;
+            left: 267.5px;
+            gap: 20px;
+
+
+            .apply-button {
+                width: 100px;
+                height: 42px;
+                padding: 11px 12px 11px 12px;
+                border-radius: 10px;
+                border: 1px;
+                gap: 10px;
+                background-color: #10BAAC;
+                border: 1px solid #EBEAED;
+                color: white;
+
+
+            }
+
+            .cancel-button {
+                width: 100px;
+                height: 42px;
+                padding: 11px 12px 11px 12px;
+                border-radius: 10px;
+                border: 1px;
+                gap: 10px;
+                background-color: rgba(176, 222, 218, 0.54);
+                border: 1px solid #EBEAED;
+                color: white;
+
+            }
+        }
+    }
+
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+
+    input[type="checkbox"] {
+        margin-right: 5px;
+    }
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+
+    .apply-button,
+    .cancel-button {
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    .apply-button {
+        background-color: #4caf50;
+        color: white;
+    }
+
+    .cancel-button {
+        background-color: #f44336;
+        color: white;
+    }
+}
+
+a {
+    color: #0074cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

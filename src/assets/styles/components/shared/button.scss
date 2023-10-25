@@ -1,0 +1,45 @@
+.primary-button {
+    padding: 17px 50px 17px 50px;
+    border-radius: 4px;
+    border: 1px solid #10BAAC;
+    background-color: white;
+}
+
+.primary-button:hover {
+    border-color: #10BAAC;
+    background: #10BAAC;
+    color: white;
+}
+
+.success-button {
+    padding: 17px 50px 17px 50px;
+    border-radius: 4px;
+    border: 1px solid #4A8F9F;
+    background-color: white;
+}
+
+.success-button:hover {
+    border-color: #218C75;
+    background: #218C75;
+    color: white;
+}
+
+.pending-button {
+    padding: 17px 50px 17px 50px;
+    border-radius: 4px;
+    border: 1px solid #08496D;
+    background-color: white;
+}
+
+.pending-button:hover {
+    border-color: #08496D;
+    background: #08496D;
+    color: white;
+}
+
+.btn-text {
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+
+}

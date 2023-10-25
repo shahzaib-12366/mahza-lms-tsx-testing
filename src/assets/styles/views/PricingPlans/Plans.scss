@@ -1,0 +1,271 @@
+.heading-wraper {
+    min-height: 184px;
+    margin: 42px 0px;
+
+    .header-container {
+
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+        h2 {
+            height: 47px;
+            width: 135px;
+            grid-area: 6px;
+            font-family: Work Sans;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 47px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #2F2D51;
+            margin: 0px;
+        }
+
+        h4 {
+            height: 38px;
+            width: 820px;
+            font-family: Work Sans;
+            font-size: 16px;
+            font-weight: 600;
+            line-height: 19px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #77838F;
+        }
+    }
+
+    .billing-cycle-toggle {
+        width: 250px;
+        height: 59px;
+        padding: 8px;
+        border-radius: 6565px;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 32px auto;
+
+
+        h3{
+            width: 117px;
+            height: 43px;
+            padding: 10px;
+            border-radius: 555px;
+            gap: 10px;
+            font-family: Work Sans;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 23px;
+            letter-spacing: 0px;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: white;
+
+            &.selected {
+                background-color: #10baac;
+                color: white;
+            }
+
+            &:hover {
+                background-color: #F3FCFB;
+                color: #10baac;
+            }
+
+
+        }
+
+    }
+}
+
+.plans-container {
+    height: 477px;
+    width: 80%;
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+
+
+    .plan {
+        width: 295.25px;
+        height: 477px;
+        padding: 32px;
+        border-radius: 8px;
+        background: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: hidden;
+
+        .sale-strip {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #10BAAC;
+            width: 160px;
+            height: 32px;
+            padding: 10px 32px 10px 32px;
+            gap: 10px;
+            box-shadow: 0px 4px 44px 0px #00000012;
+            font-family: Work Sans;
+            font-size: 12px;
+            font-weight: 500;
+            line-height: 13px;
+            letter-spacing: 0px;
+            text-align: center;
+            color: #FFFFFF;
+            rotate: 45deg;
+            margin-left: 150px;
+            position: relative;
+
+        }
+
+        .absolute-position {
+            position: absolute;
+        }
+
+        .uper-wraper {
+            height: 311px;
+            gap: 20px;
+
+            .title {
+                width: 71px;
+                height: 28px;
+                font-family: Work Sans;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 28px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #10BAAC;
+                margin: 0px;
+                text-transform: uppercase;
+            }
+
+            h3 {
+                width: 88px;
+                height: 47px;
+                font-family: Work Sans;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 47px;
+                letter-spacing: 0px;
+                text-align: center;
+                color: #2F2D51;
+                margin: 0px;
+            }
+
+            .striken-price {
+                width: 210px;
+                height: 47px;
+                background-color: linear-gradient(0deg, #2F2D51, #2F2D51),
+                    linear-gradient(0deg, #818181, #818181);
+                display: flex;
+                align-items: flex-start;
+                font-family: Work Sans;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 47px;
+                letter-spacing: 0px;
+                text-align: center;
+                overflow: hidden;
+
+                s {
+                    color: #818181;
+                }
+
+                span {
+                    color: #2F2D51;
+                }
+            }
+
+            p {
+                width: 231.25px;
+                height: 37px;
+                font-family: Work Sans;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 18px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #77838F;
+
+            }
+
+            ul {
+                width: 159px;
+                height: 128px;
+                font-family: Work Sans;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 32px;
+                letter-spacing: 0px;
+                text-align: left;
+                color: #000000;
+            }
+        }
+
+        Button {
+
+            height: 60px;
+            padding: 17px 50px 17px 50px;
+            border-radius: 4px;
+            border: 1px;
+            gap: 10px;
+            border: 1px solid #10BAAC;
+            font-family: 'Work Sans';
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 23px;
+            letter-spacing: 0em;
+            text-align: center;
+
+
+        }
+
+
+        &:hover {
+            background-color: #10baac;
+
+            .uper-wraper {
+                color: white;
+
+                .title,
+                h3,
+                p,
+                ul {
+                    color: white;
+                }
+
+                .striken-price {
+                    s {
+                        color: white;
+                        font-weight: 100;
+                    }
+
+                    span {
+                        color: white;
+                    }
+                }
+
+            }
+
+            Button {
+                background-color: white;
+                color: #10BAAC;
+                box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+            }
+
+            .sale-strip {
+                background-color: white;
+                color: #10BAAC;
+            }
+        }
+
+    }
+}
